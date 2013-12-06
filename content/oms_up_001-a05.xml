@@ -1,565 +1,204 @@
-<!DOCTYPE html>
-<html>
-<head>
-                    <title>Not Permitted - Confluence</title>
-    
-        
-
-                        
-    
-                        
-    
-
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=IE7">
-<meta charset="UTF-8">
-<meta id="confluence-context-path" name="confluence-context-path" content="/wiki">
-<meta id="confluence-base-url" name="confluence-base-url" content="https://digitalculturelab.atlassian.net/wiki">
-
-<meta id="atlassian-token" name="atlassian-token" content="39b40697ad911b372d5db6f54bd85585cce36a94">
-
-<script type="text/javascript">
-        var contextPath = '/wiki';
-</script>
-
-    
-
-<!-- include system css resources -->
-
-
-    <link type="text/css" rel="stylesheet" href="/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/42/_/download/superbatch/css/batch.css" media="all">
-<link type="text/css" rel="stylesheet" href="/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/42/_/download/superbatch/css/batch.css?media=print" media="print">
-<!--[if lt IE 9]>
-<link type="text/css" rel="stylesheet" href="/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/42/_/download/superbatch/css/batch.css?conditionalComment=lt+IE+9" media="all">
-<![endif]-->
-<!--[if lte IE 8]>
-<link type="text/css" rel="stylesheet" href="/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/42/_/download/superbatch/css/batch.css?conditionalComment=lte+IE+8" media="all">
-<![endif]-->
-<!--[if lte IE 9]>
-<link type="text/css" rel="stylesheet" href="/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/42/_/download/superbatch/css/batch.css?conditionalComment=lte+IE+9" media="all">
-<![endif]-->
-<link type="text/css" rel="stylesheet" href="/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/cb18b10b337c4358a8c0518b20a5d5da/_/download/contextbatch/css/main/batch.css" media="all">
-<link type="text/css" rel="stylesheet" href="/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/9aba96baccfedf91c3178b8cd3751c3a/_/download/contextbatch/css/atl.general/batch.css" media="all">
-<link type="text/css" rel="stylesheet" href="/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/3.5.6/_/download/batch/com.atlassian.support.stp:stp-license-status-resources/com.atlassian.support.stp:stp-license-status-resources.css" media="all">
-<link type="text/css" rel="stylesheet" href="/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/5.3.1/_/download/batch/confluence.extra.jira:web-resources-adg/confluence.extra.jira:web-resources-adg.css" media="all">
-<link type="text/css" rel="stylesheet" href="/wiki/s/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/2/_/styles/colors.css" media="all">
-<link type="text/css" rel="stylesheet" href="/wiki/s/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/1.0/_/download/resources/com.atlassian.confluence.themes.default:styles/default-theme.css" media="all">
-
-<!-- end system css resources -->
-
-    <meta name="robots" content="noindex,nofollow">
-    <meta name="robots" content="noarchive">
-    <meta name="confluence-request-time" content="1386338383548">
-        
-    
-        
-            <meta name="ajs-use-keyboard-shortcuts" content="true">
-            <meta name="ajs-keyboardshortcut-hash" content="fb4318d2b4bbcc28a6bebb165e0d37cf">
-            <link rel="stylesheet" type="text/css" href="https://digitalculturelab.atlassian.net/wiki/s/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/2.0.16/_/download/resources/com.atlassian.studio.static:studio_resources/css/footer.css">
-<link rel="stylesheet" type="text/css" href="https://digitalculturelab.atlassian.net/plugins/servlet/studio/dynamiccss/studio-colors-css.css">
-            <meta id="team-calendars-has-jira-link" content="true">
-            <meta id="team-calendars-is-user-admin" content="true">
-            <meta id="team-calendars-show-timezone-setup" content="true">
-            <meta id="team-calendars-user-timezone" content="America/Indianapolis">
-            <script type="text/x-template" id="team-calendars-messages" title="team-calendars-messages">
-    <fieldset class="i18n hidden">
-                    <input type="hidden" name="calendar3.month.short.april" value="Apr">
-                    <input type="hidden" name="calendar3.month.short.november" value="Nov">
-                    <input type="hidden" name="calendar3.month.long.november" value="November">
-                    <input type="hidden" name="calendar3.day.short.friday" value="Fri">
-                    <input type="hidden" name="calendar3.month.long.february" value="February">
-                    <input type="hidden" name="calendar3.month.short.february" value="Feb">
-                    <input type="hidden" name="calendar3.day.long.wednesday" value="Wednesday">
-                    <input type="hidden" name="calendar3.month.long.december" value="December">
-                    <input type="hidden" name="calendar3.day.short.sunday" value="Sun">
-                    <input type="hidden" name="calendar3.month.long.april" value="April">
-                    <input type="hidden" name="calendar3.month.long.july" value="July">
-                    <input type="hidden" name="calendar3.month.short.august" value="Aug">
-                    <input type="hidden" name="calendar3.month.long.september" value="September">
-                    <input type="hidden" name="calendar3.month.short.june" value="Jun">
-                    <input type="hidden" name="calendar3.month.short.may" value="May">
-                    <input type="hidden" name="calendar3.day.short.tuesday" value="Tue">
-                    <input type="hidden" name="calendar3.day.short.wednesday" value="Wed">
-                    <input type="hidden" name="calendar3.day.long.thursday" value="Thursday">
-                    <input type="hidden" name="calendar3.month.long.march" value="March">
-                    <input type="hidden" name="calendar3.month.long.october" value="October">
-                    <input type="hidden" name="calendar3.day.short.saturday" value="Sat">
-                    <input type="hidden" name="calendar3.month.short.january" value="Jan">
-                    <input type="hidden" name="calendar3.month.long.may" value="May">
-                    <input type="hidden" name="calendar3.month.long.january" value="January">
-                    <input type="hidden" name="calendar3.month.short.october" value="Oct">
-                    <input type="hidden" name="calendar3.day.short.thursday" value="Thu">
-                    <input type="hidden" name="calendar3.day.long.friday" value="Friday">
-                    <input type="hidden" name="calendar3.day.long.sunday" value="Sunday">
-                    <input type="hidden" name="calendar3.month.long.june" value="June">
-                    <input type="hidden" name="calendar3.month.long.august" value="August">
-                    <input type="hidden" name="calendar3.day.long.tuesday" value="Tuesday">
-                    <input type="hidden" name="calendar3.day.long.saturday" value="Saturday">
-                    <input type="hidden" name="calendar3.month.short.september" value="Sep">
-                    <input type="hidden" name="calendar3.day.long.monday" value="Monday">
-                    <input type="hidden" name="calendar3.month.short.july" value="Jul">
-                    <input type="hidden" name="calendar3.month.short.march" value="Mar">
-                    <input type="hidden" name="calendar3.day.short.monday" value="Mon">
-                    <input type="hidden" name="calendar3.month.short.december" value="Dec">
-            </fieldset>
-</script>
-
-            
-
-            
-            <meta name="ajs-show-space-welcome-dialog" content="true">
-            <meta name="ajs-is-confluence-admin" content="true">
-            <meta name="ajs-connection-timeout" content="10000">
-            
-
-    
-            
-    
-    
-            <meta name="ajs-context-path" content="/wiki">
-            <meta name="ajs-base-url" content="https://digitalculturelab.atlassian.net/wiki">
-            <meta name="ajs-version-number" content="5.3-OD-15">
-            <meta name="ajs-build-number" content="4901">
-            <meta name="ajs-remote-user" content="jawalsh">
-            <meta name="ajs-current-user-fullname" content="John Walsh [Administrator]">
-            <meta name="ajs-current-user-avatar-url" content="/images/icons/profilepics/default.png">
-            <meta name="ajs-static-resource-url-prefix" content="/wiki/s/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/_">
-            <meta name="ajs-global-settings-attachment-max-size" content="104857600">
-            <meta name="ajs-user-locale" content="en_GB">
-            <meta name="ajs-enabled-dark-features" content="rotp.admin.shortcuts,sync.event,app-switcher.new,rotp.project.shortcuts">
-            <meta name="ajs-atl-token" content="39b40697ad911b372d5db6f54bd85585cce36a94">
-            <meta name="ajs-confluence-flavour" content="ALACARTE">
-            <meta name="ajs-editor.loader.resources" content="&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/a15122f3fdb795ca48e13287c58af726/_/download/contextbatch/css/editor,macro-browser,fullpage-editor,-atl.general/batch.css&quot; media=&quot;all&quot;&gt;
-&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/a15122f3fdb795ca48e13287c58af726/_/download/contextbatch/css/editor,macro-browser,fullpage-editor,-atl.general/batch.css?media=%28max-width%3A+1450px%29&quot; media=&quot;(max-width: 1450px)&quot;&gt;
-&lt;!--[if lt IE 9]&gt;
-&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/a15122f3fdb795ca48e13287c58af726/_/download/contextbatch/css/editor,macro-browser,fullpage-editor,-atl.general/batch.css?conditionalComment=lt+IE+9&quot; media=&quot;all&quot;&gt;
-&lt;![endif]--&gt;
-&lt;!--[if IE]&gt;
-&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/a15122f3fdb795ca48e13287c58af726/_/download/contextbatch/css/editor,macro-browser,fullpage-editor,-atl.general/batch.css?ieonly=true&quot; media=&quot;all&quot;&gt;
-&lt;![endif]--&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/a15122f3fdb795ca48e13287c58af726/_/download/contextbatch/js/editor,macro-browser,fullpage-editor,-atl.general/batch.js&quot; &gt;&lt;/script&gt;
-">
-            <meta name="ajs-date.format" content="MMM dd, yyyy">
-    
-    <link rel="shortcut icon" href="/wiki/favicon.ico">
-    <link rel="icon" type="image/x-icon" href="/wiki/favicon.ico">
-
-<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch/osd.action" title="Confluence"/>
-
-    <!-- include system javascript resources -->
-    <script type="text/javascript" src="/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/42/_/download/superbatch/js/batch.js" ></script>
-<!--[if lte IE 8]>
-<script type="text/javascript" src="/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/42/_/download/superbatch/js/batch.js?conditionalComment=lte+IE+8" ></script>
-<![endif]-->
-<script type="text/javascript" src="/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/cb18b10b337c4358a8c0518b20a5d5da/_/download/contextbatch/js/main/batch.js" ></script>
-<script type="text/javascript" src="/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/9aba96baccfedf91c3178b8cd3751c3a/_/download/contextbatch/js/atl.general/batch.js" ></script>
-<script type="text/javascript" src="/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/3.2.12/_/download/batch/com.atlassian.plugins.atlassian-nav-links-plugin:administration-shortcuts-resources/com.atlassian.plugins.atlassian-nav-links-plugin:administration-shortcuts-resources.js" ></script>
-<script type="text/javascript" src="/wiki/download/batch/com.atlassian.growth.experiments-plugin:atlassian-experiments/com.atlassian.growth.experiments-plugin:atlassian-experiments.js?cache=false" ></script>
-<script type="text/javascript" src="/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/3.5.6/_/download/batch/com.atlassian.support.stp:stp-license-status-resources/com.atlassian.support.stp:stp-license-status-resources.js" ></script>
-<script type="text/javascript" src="/wiki/s/d41d8cd98f00b204e9800998ecf8427e/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/1.2/_/download/batch/com.atlassian.mywork.mywork-confluence-host-plugin:mw-header-anchor/com.atlassian.mywork.mywork-confluence-host-plugin:mw-header-anchor.js" ></script>
-
-    
-
-        
-    <!-- end system javascript resources -->
-
-        
-        
-
-    
-</head>
-
-<body             onload="placeFocus()"
-     id="com-atlassian-confluence" class="theme-default  aui-layout aui-theme-default">
-
-        
-    <ul id="assistive-skip-links" class="assistive">
-    <li><a href="#title-heading">Skip to content</a></li>
-    <li><a href="#breadcrumbs">Skip to breadcrumbs</a></li>
-    <li><a href="#header-menu-bar">Skip to header menu</a></li>
-    <li><a href="#navigation">Skip to action menu</a></li>
-    <li><a href="#quick-search-query">Skip to quick search</a></li>
-</ul>
-<div id="page">
-<div id="full-height-container">
-    <div id="header-precursor">
-        <div class="cell">
-            
-                            </div>
-    </div>
-    
-
-
-
-<header id="header" role="banner">
-    <nav class="aui-header aui-dropdown2-trigger-group" role="navigation"><div class="aui-header-inner"><div class="aui-header-before"><a class="aui-dropdown2-trigger app-switcher-trigger" aria-owns="app-switcher" aria-haspopup="true" tabindex="0"><span class="aui-icon aui-icon-small aui-iconfont-appswitcher">Linked Applications</span></a><div id="app-switcher" class="aui-dropdown2 aui-style-default"><div class="app-switcher-loading">Loading&hellip;</div></div><script>
-            (function (NL) {
-                var initialise = function () {
-                    // For some milestones of AUI, the atlassian soy namespace was renamed to aui. Handle that here by ensuring that window.atlassian is defined.
-                    window.atlassian = window.atlassian || window.aui;
-                    new NL.AppSwitcher({
-                        dropdownContents: '#app-switcher'
-                    });
-                };
-                if (NL.AppSwitcher) {
-                    initialise();
-                } else {
-                    NL.onInit = initialise;
-                }
-            }(window.NL = (window.NL || {})));
-            window.NL.isUserAdmin = true</script></div><div class="aui-header-primary"><h1 id="logo" class="aui-header-logo aui-header-logo-custom"><a href="/wiki/"><img src="/wiki/s/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/_/images/logo/confluence-logo.png" alt="Confluence" /></a></h1><ul class="aui-nav">
-                            <li>
-            
-        
-        
-<a  id="space-directory-link" href="/wiki/spacedirectory/view.action"  class=" aui-nav-imagelink"   title="Spaces">
-            <span>Spaces</span>
-    </a>
-        </li>
-                    <li>
-            
-    
-        
-<a  id="people-directory-link" href="/wiki/peopledirectory.action"  class=" aui-nav-imagelink"   title="People">
-            <span>People</span>
-    </a>
-        </li>
-                                            <li>
-            
-    
-        
-<a  id="create-page-button" href="/wiki"  class="aui-button aui-style aui-button-primary aui-nav-imagelink"   title="Create Content">
-            <span>Create</span>
-    </a>
-        </li>
-        </ul>
-</div><div class="aui-header-secondary"><ul class="aui-nav">
-                <li>
-<form id="quick-search" class="aui-quicksearch dont-default-focus header-quicksearch" action="/wiki/dosearchsite.action" method="get">
-    <fieldset>
-                        <label for="quick-search-query" class="assistive">Quick Search</label>
-        <input id="quick-search-query" class="text app-search search quick-search-query" type="text"
-               accessKey="q" autocomplete="off" name="queryString" title="Quick Search"  placeholder="Search" />
-        <input id="quick-search-submit" class="quick-search-submit" type="submit" value="Search"/>
-
-        <div class="aui-dd-parent quick-nav-drop-down"></div>
-    </fieldset>
-    <div class="hidden parameters">
-                    <!-- putMetadata failed to add value for key "quick-nav-enabled" so rendering metadata inline - see server debug log for details -->
-        <meta name="ajs-quick-nav-enabled" content="true">
-                </div>
-</form>
-</li>
-    <li>    
-        <a id="help-menu-link" class="aui-nav-link aui-dropdown2-trigger" href="#" aria-haspopup="true" aria-owns="help-menu-link-content" title="Help">
-        <span class="aui-icon aui-icon-small aui-iconfont-help">Help</span>
-    </a>
-    <nav id="help-menu-link-content" class="aui-dropdown2 aui-style-default" aria-hidden="true">
-                    <div class="aui-dropdown2-section">
-                <ul  id="help-menu-link-leading" class="aui-list-truncate section-leading first">
-                                            <li>
-    
-            
-<a  id="confluence-help-link" href="http://confluence.atlassian.com/display/AOD/Getting+Help+And+Support" class="    "      title="Visit the Confluence documentation home"  target="_blank"
->
-        Online Help
-</a>
-</li>
-                                            <li>
-    
-            
-<a  id="keyboard-shortcuts-link" href="/wiki" class="    "      title="View available keyboard shortcuts" >
-        Keyboard Shortcuts
-</a>
-</li>
-                                            <li>
-    
-            
-<a  id="feed-builder-link" href="/wiki/dashboard/configurerssfeed.action" class="    "      title="Create your custom RSS feed." >
-        Feed Builder
-</a>
-</li>
-                                            <li>
-    
-            
-<a  id="whats-new-menu-link" href="http://docs.atlassian.com/confluence/docs-53/whatsnew/iframe?e=amF3YWxzaEBpbmRpYW5hLmVkdQ%3D%3D&amp;od=true&amp;a=true" class="    "      title="" >
-        What’s new
-</a>
-</li>
-                                            <li>
-    
-            
-<a  id="gadget-directory-link" href="/wiki" class="   user-item administration-link "      title="Browse gadgets provided by Confluence" >
-        Available Gadgets
-</a>
-</li>
-                                            <li>
-    
-            
-<a  id="confluence-about-link" href="/wiki/aboutconfluencepage.action" class="    "      title="Get more information about Confluence" >
-        About Confluence
-</a>
-</li>
-                                    </ul>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="oms_up.xsl"?>
+<TEI version="5.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Story of Princess Blachelys</title>
+                <respStmt>
+                    <resp>Generated by</resp>
+                    <name>Department of Information and Library Science, Indiana University</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name>Brianna Marshall</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Department of Information and Library Science, Indiana
+                    University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date when="2013">2013</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Undergraduate Papers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title>The Story of Princess Blachelys</title>
+                        <author>George Birkbeck Hill</author>
+                    </analytic>
+                    <monogr>
+                        <title>Undergraduate Papers</title>
+                        <imprint>
+                            <pubPlace>Oxford, England, UK</pubPlace>
+                            <publisher>Old Mortality Society</publisher>
+                            <date when="1857-12">December 1857</date>
+                            <biblScope type="issue">1</biblScope>
+                            <!-- <biblScope type="pp"><26-30</biblScope> -->
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article">
+                <p>A bright summer’s day, with a gentle breeze rustling through the green leaves
+                    over head, rippling over the yellowing wheat, and coming with how pleasant a
+                    whisper to him who was so happy as to be out in the fields and woods. Happy
+                    indeed was that man; such a day it was that now one would go on leaping and
+                    running for very joy, now walk slowly along with a calmer delight, and now lie
+                    down on some mossy bank and gaze up at the white flocks of cloud that the wind
+                    wove in endless variety of patterns on the deep blue ground of heaven.</p>
+                <p><persName>Prince Chantefleur</persName> was too happy not to feel all the delights of that bright
+                    summer day: no weather, I think, could be so bad but that a man would love it
+                    the day before his marriage, and to-morrow Prince Chantefleur was to wed the
+                    <persName>Princess Blanchelys</persName> of the Golden Hair. So he leapt and ran, and at times he
+                    drew his sword and cleared a path through the tangle, and proud he was when he
+                    laid low a tall tough thistle; for you must know that the Prince, though a head
+                    taller than all his people, still was not quite five inches high.</p>
+                <p>So on he went happily through the woods, full of their beauty, and dreaming of a
+                    still deeper beauty. “Ah, beautiful lily” he said, as he looked up at a tall
+                    flower which swung so gracefully high above his head; “you are indeed white and
+                    fair, and happy is the bee that shall lie in your bosom, but I shall rest on a
+                    breast still whiter, still fairer, and drink in deep of love. Yellow are the
+                    graceful spears that spring up in you, from your white bosoms but golden hair
+                    will float over me where 1 shall lie to-morrow/’ And the lily only smiled and
+                    said “l am fair but she is fairer.” And on the happy Prince went; he talked to
+                    many flowers of his lady love, and told them of her beauty, and they all said
+                    "we are fair but she is fairer:" And the» mosses said “ Ah, happy Prince we have
+                    often softly couched your head: our couch was soft and warm but her breast will
+                    be softer and wrarmer.” But he soon forgot the fair lily and the other flowers,
+                    and the soft mosses, for under a bright green fern, in glorious contrast with
+                    the green, shone the golden air of his lady love.</p>
+                <p>The ferns swayed over them full of delight, the gleams of sunlight broke upon
+                    them, the birds sang right happily, the trees rustled gently above them, and the
+                    little hare-bell rang out a merry peal of joy. And there they sat under the fern
+                    leaves shade, and the sun crept on and on, and the shadow of the lily grew
+                    longer and longer, and its top shone purple-white like snow, as it caught the
+                    last rays of the setting day, and the breeze fell and the rustling leaves were
+                    still. So the Prince and Princess rose sadly to return home, and yet not sadly,
+                    for every moment brought them nearer to the glorious time when love—deep love
+                    was to be theirs in all its wondrous depth. Hand in hand they went along, the
+                    soft mosses became softer to their tread, the flowers bowed toward them with
+                    love, the rose stole a kiss from the maiden and the lily swept the Knight's lips
+                    and blushed with delight; even the rough bramble grew tender and longed sadly
+                    that he were soft and gentle, that he might twine round the girl’s warm
+                    neck.</p>
+                <p>Right in their way rose a bed of nettles,— "Stand back dear lady and I will open
+                    a path, I who fear nothing;" and the Prince drew his trusty sword and struck
+                    valiantly. Ah roe, but as be smote so bravely and so deftly on this side and
+                    that, he heard one cry, his name once called, and he looked round and a great
+                    white bird with staring eyes was bearing off his bride. I know not what he
+                    felt—he cried aloud, and then with his sword in hand, he ran wildly along trying
+                    to keep up with the monster that was bearing away his life, his love, his own
+                    true bride. The bushes again drew back for him, the lily rose up out of his way,
+                    the moss was springy to his feet, and everything sped him on, for everything
+                    that was beautiful was sick at heart. On and on he ran, crying aloud to cheer
+                    his love, “ courage, dear heart, your true Knight is at hand," but all the time
+                    he felt very faint, for he thought he never could save her. At last he saw the
+                    great bird make for an old tower that stood up before him in the moonlight.
+                    Large fir trees rose up ghost like around it, dark and gloomy; while ivy had
+                    crept over three sides and had wound about the battlements at the top. It looked
+                    very sad with its dark ivy and darker shadows thrown by the giant trees, that
+                    whispered ghostly sounds all around them. On one side, high up, was a black
+                    opening; the long ivy shoots hung all about it, half biding it and half showing
+                    it, throwing shadows and lights into the recess. Hither the great bird flew with
+                    his beautiful burden, just as the faithful lover rushed breathless up to the
+                    foot of the tower.</p>
+                <p>What could he do ? before him rose the cold brick wall, no ivy shoots within his
+                    reach, for the great gnarled root crawled up the opposite side, and far above
+                    his head was the black opening, and what was doing within, he dare not think
+                    upon. He cried aloud that he would give up himself to save his dear bride, but
+                    all the answer he heard was a scornful hooting. He tried to catch at the ivy
+                    shoots, but none reached to within a full ten inches of the ground and he was
+                    only half that height. Just then he heard an odd squeaking noise, that seemed to
+                    come from some place close by his feet; his name was called, “ Prince, Prince, I
+                    will help you : I once helped a lion out of a net. I know a way to the great
+                    bird’s den: I know a secret passage up through the wall; follow me and I will
+                    lead the way.” The poor prince thought he saw some chance, some hope, however
+                    slight, he seized at it for what else could he do? “ The way, the way,” he
+                    cried, "quick! quick!” The mouse—for it was no other—pointed to a little hole in
+                    the brickwork: “ but stay” he said, "wait till I can get help, we are not strong
+                    enough alone.” But never a word did the Prince answer, but taking his sword
+                    between his teeth, he scrambled up and up, over rubbish that slipped beneath his
+                    tread ; cutting his face and hands sadly, but never ceasing a moment, always
+                    dreading he might be too late. At last he reached a level space; a sob he heard
+                    in the distance was the sad guide to his steps; grasping his sword tight in his
+                    hand, he rushed on. "Lady mine” he shouted out, "cheer up, I am coming, your
+                    true Knight, your lover:" hs heard one cry of joy in answer and then found
+                    himself fighting for his own life and for that of his beautiful bride. Well and
+                    bravely did he fight, his blows fell thick and heavy. He saw deliverance before
+                    him, when his foot tripped up, and in a moment the great bird had him beneath
+                    her claws and was hooting in his face.</p>
+                <p>But we must return to our friend the mouse. “ Ah,” saiu the mouse, who was a bit
+                    of a philosopher, having come to a good old age, "that is always the way with
+                    these young sparks now a days; they rush on at once, never heeding an old
+                    fellow’s advice: though how runs the proverb— 'the words of an old man are like
+                    the inside of a cheese.’ Ah! it was different in my younger days, we did not
+                    think ourselves wiser than our elders. Well! well! it would serve him right, if
+                    I were to leave him to take care of himself, but no I am a soft hearted old
+                    fellow, and so must, I suppose, see what can be done. Let me see," and hereupon
+                    he whisked round his tail to the tip of his nose, as all wise mice do when they
+                    are engaged in deliberation. "Let me see; I have it*, I will get my cousin the
+                    glow-worm to help me. For that great bird I remember hates my cousin and will
+                    never come here near him, because he shines so beautifully I suppose." And
+                    saying this the mouse started off to the glow-worm, who lived hard by.</p>
+                <p>“ Cousin, cousin," he cried “ I want you to help me," and he told him the whole
+                    story. “ Come along" said the glow-worm, "but stay you must carry me, for I
+                    never was much of a walker : and look, here lie the halves of a nutshell quite
+                    handy. I will jump into one and do you put the other on the top and so bear me
+                    along. Now when we arrive at the hole where the bird lives, just throw down the
+                    shell and I will leap out, and you will see what will happen."</p>
+                <p>"All right" said the mouse, “be bold." Now to tell the truth the poor mouse said
+                    this because he felt very much afraid himself and wanted to pick up a little
+                    courage. At times he felt inclined to draw back, but then he thought of the poor
+                    knight and the fair maiden. “ Besides" said he “ I will keep safe in the narrow
+                    passage and throw my cousin into the hole, as he told me, and if he is killed
+                    why I can't help it." So like a bold fellow as he was, he began the ascent; up
+                    and up he climbed, never stopping to take breath, though he found the glow worm
+                    and the shell a great burthen. Still as he knew the way well, and moreover was
+                    famous for his climbing, he went up so quickly that he reached the top but a few
+                    moments after the gallant knight had been overthrown.</p>
+                <p>The great bird was still hooting fiercely and taunting the poor Prince; while the
+                    beautiful princess had burst loose from her bonds and had fallen on the neck of
+                    her lover; her golden hair streaming over his face and her tears wetting his
+                    cheeks. They were never to meet any more they thought, and yet dying together it
+                    was not so very bitter.</p>
+                <p>But just then a slight noise was heard; something dropped on the floor, out
+                    rolled a ball of light, shining straight into the eyes of the great bird; never
+                    I ween had the glow-worm sent forth so bright a ray. The bird was blinded by the
+                    light—for of all animals that lived he loved the darkness most—and stumbled
+                    backwards, losing his hold on the knight, “ Lose me, dearest" said the prince,
+                    and her soft arms fell from his neck ; he leapt to his feet and in an instant
+                    buried his sword deep into the monster’s breast. His love, his bride was safe,
+                    and to-morrow was their marriage day. He took her in his arms and kissed her
+                    again and again, and they both wept for joy and gladness, and then they kissed
+                    away each other's tears. I trow there were many kisses needed.</p>
+                <p>Then they thanked the bright glow-worm and the good old mouse; and the glow-worm
+                    made a polite speech, and said his own poor light was extinguished by the lady's
+                    bright eyes, and the silly old mouse put his head out of the hole, to see as he
+                    pretended if it were a starlight night, but in reality to hide a tear. At last,
+                    however, they set out for home, the mouse claiming to be their guide and the
+                    glow-worm their torch. The moon shone brightly, and the flowers were all happy
+                    again, and the nightingale sang in deep joy, and the knight’s arm wound round
+                    his lady-love's waist, for he feared he might lose her once more. Great was the
+                    joy when they reached the court and told their story, the two old kings, the
+                    fathers of the bride and bridegroom, could hardly say a word, but fell on their
+                    children's necks and kissed them again and again ; and as for the courtiers, why
+                    some were laughing and some were weeping, in such a manner that you would have
+                    hardly known if it were a funeral or a wedding. Who can tell all the festivities
+                    that followed? Never had such a sight been seen; never was any marriage
+                    celebrated more royally ; never was any bride so fair, never any knight so
+                    brave. Of course the mouse and the glow-worm were both present; the former for
+                    his great services was decorated with the Grand Cross of the Toasted Cheese, the
+                    latter was made First Candlestick in Waiting, and in this capacity he had the
+                    glory of lighting the noble pair as they went in deep joy from the great old
+                    hall to their happy bridal chamber.</p>
             </div>
-            </nav>
-    </li>
-    <li>    
-        <a id="admin-menu-link" class="aui-nav-link aui-dropdown2-trigger" href="#" aria-haspopup="true" aria-owns="admin-menu-link-content" title="Administration">
-        <span class="aui-icon aui-icon-small aui-iconfont-configure">Administration</span>
-    </a>
-    <nav id="admin-menu-link-content" class="aui-dropdown2 aui-style-default" aria-hidden="true">
-                    <div class="aui-dropdown2-section">
-                <ul  id="admin-menu-link-leading" class="aui-list-truncate section-leading first">
-                                            <li>
-    
-            
-<a  id="administration-link" href="/wiki/admin/console.action" class="    "      title="Manage and maintain Confluence" >
-        Confluence Admin
-</a>
-</li>
-                                            <li>
-    
-            
-<a  id="plugin-administration-link" href="/wiki/plugins/servlet/upm" class="    "      title="Find and install add-ons, and manage existing ones" >
-        Add-ons
-</a>
-</li>
-                                            <li>
-    
-            
-<a  id="manage-users-link" href="https://digitalculturelab.atlassian.net/secure/admin/user/UserBrowser.jspa" class="    "      title="Add or invite users, and manage existing ones" >
-        Global Users
-</a>
-</li>
-                                    </ul>
-            </div>
-            </nav>
-    </li>
-                <li>
-        
-    
-        
-<a  id="notifications-anchor" href="/wiki"  class="mw-anchor read aui-nav-imagelink"   title="">
-            <span></span>
-    </a>
-    </li>
-        <li>                                    
-        <a id="user-menu-link" class="aui-dropdown2-trigger " aria-haspopup="true" aria-owns="user-menu-link-content" data-username="jawalsh" href="#" title="John Walsh [Administrator]">
-                    <div class="aui-avatar aui-avatar-small">
-                <div class="aui-avatar-inner">
-                    <img src="/wiki/s/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/_/images/icons/profilepics/default.png"/>
-                </div>
-            </div>
-            <span class="aui-icon-dropdown"></span>
-        </a>
-        <nav id="user-menu-link-content" class="aui-dropdown2 aui-style-default">
-                            <div class="aui-dropdown2-section">
-                    <ul  id="user-menu-link-user-status"                        class="aui-list-truncate section-user-status first">
-                                                    <li>
-    
-            
-<a  id="create-user-status-link" href="/wiki/display/~jawalsh" class="   user-item update-user-status "      title="Update your status" >
-        Update Status…
-</a>
-</li>
-                                            </ul>
-                </div>
-                            <div class="aui-dropdown2-section">
-                    <ul  id="user-menu-link-user-preferences"                        class="aui-list-truncate section-user-preferences">
-                                                    <li>
-    
-            
-<a  id="view-personal-space-link" href="/wiki/spaces/viewspace.action?key=~jawalsh" class="   user-item personal-space "      title="" >
-        Personal Space
-</a>
-</li>
-                                                    <li>
-    
-            
-<a  id="view-user-history-link" href="/wiki/users/viewuserhistory.action" class="   user-item user-history popup-link "      title="" >
-        Recently Viewed
-</a>
-</li>
-                                            </ul>
-                </div>
-                            <div class="aui-dropdown2-section">
-                    <ul  id="user-menu-link-user-content"                        class="aui-list-truncate section-user-content">
-                                                    <li>
-    
-            
-<a  id="view-user-profile-link" href="/wiki/users/viewmyprofile.action" class="   user-item user-profile "      title="" >
-        Profile
-</a>
-</li>
-                                                    <li>
-    
-            
-<a  id="user-settings-link" href="/wiki/users/viewmysettings.action" class="   user-item "      title="" >
-        Settings
-</a>
-</li>
-                                                    <li>
-    
-            
-<a  href="/wiki/users/viewfollow.action?username=jawalsh" class="   follow-link "      title="" >
-        Network
-</a>
-</li>
-                                                    <li>
-    
-            
-<a  href="/wiki/display/status/jawalsh/list" class="   user-item list-user-status "      title="" >
-        Status Updates
-</a>
-</li>
-                                                    <li>
-    
-            
-<a  id="user-favourites-link" href="/wiki/users/viewmyfavourites.action" class="   user-item "      title="" >
-        Favourites
-</a>
-</li>
-                                                    <li>
-    
-            
-<a  id="user-watches-link" href="/wiki/users/viewnotifications.action" class="   user-item "      title="" >
-        Watches
-</a>
-</li>
-                                                    <li>
-    
-            
-<a  id="user-drafts-link" href="/wiki/users/viewmydrafts.action" class="   user-item "      title="" >
-        Drafts
-</a>
-</li>
-                                            </ul>
-                </div>
-                            <div class="aui-dropdown2-section">
-                    <ul  id="user-menu-link-user-operations"                        class="aui-list-truncate section-user-operations">
-                                                    <li>
-    
-            
-<a  id="logout-link" href="/wiki/logout.action" class="   user-item logout-link "      title="" >
-        Log Out
-</a>
-</li>
-                                            </ul>
-                </div>
-                    </nav>
-                    </li>
-</ul>
-</div></div><!-- .aui-header-inner--></nav><!-- .aui-header -->
-    <br class="clear">
-</header>
-
-        <!-- \#header -->
-
-        
-        <div id="main" class=" aui-page-panel">
-                <div id="main-header">
-            
-            
-            <div id="title-heading" class="pagetitle with-breadcrumbs">
-                
-                                    <div id="breadcrumb-section">
-                        
-    
-    
-    <ol id="breadcrumbs">
-                    
-                
-        <li class="first" >
-                
-
-                    <span class=""><a href="/wiki/admin/console.action">Administration</a></span>
-                            
-                
-        <li>
-                
-
-                    <span class=""><a href="/wiki/admin/users/browseusers.action">Users</a></span>
-                </ol>
-
-
-                    </div>
-                
-                
-
-                <h1 id="title-text" class="with-breadcrumbs">
-                                                Not Permitted
-                                    </h1>
-            </div>
-        </div><!-- \#main-header -->
-        
-        
-
-        <div id="sidebar-container">
-                                                </div><!-- \#sidebar-container -->
-
-        
-
-        
-
-
-
-
-    <div id="content" style="margin:10px;">
-
-        <p>You are not permitted to perform this operation.</p>
-
-    </div>
-
-
-    </div><!-- \#main -->
-        
-    
-        
-            <div id="studio-footer" class="footer">
-    <div id="poweredby">
-        <p>
-            <a href="http://www.atlassian.com/">Powered by Atlassian</a> <span id="studioVersion">2.0 r</span> |
-            <a href="http://www.atlassian.com/hosted/terms.jsp">Terms of Use</a> |
-            <a href="https://answers.atlassian.com/">Answers</a>
-        </p> 
-    </div>
-</div>
-
-<script type="text/javascript" charset="utf-8" src="/wiki/s/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/2.0.16/_/download/resources/com.atlassian.studio.static:studio_resources/js/split_button.js"></script>
-<script type="text/javascript" charset="utf-8" src="/wiki/s/en_GB-1988229788/4901/2a38c090b3ca5fad1854c30c7d7a7c0394fb58e6.2/2.0.16/_/download/resources/com.atlassian.studio.static:studio_resources/js/userstatus.js"></script>
-
-
-<script type="text/javascript">
-    // This is the app specific data that the shared js expects
-    studioData = {"jiraUrl" : "https://digitalculturelab.atlassian.net"};
-
-    
-    // Google analytics
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-6032469-30']);
-    _gaq.push(['_setDetectTitle', false]); // don't send page titles
-
-    (function () {
-        var filteredUrl = document.location.pathname + document.location.search;
-        // don't capture page titles in CONF
-        filteredUrl = filteredUrl.replace(/(.*)\/display\/.*\/.*/,
-            '$1/pages/viewpage.action?pageId=' + (AJS && AJS.Meta && AJS.Meta.get('page-id') || "*"));
-        _gaq.push(['_trackPageview', filteredUrl]);
-    })();
-
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-</script>
-
-            
-            
-    
-
-</div><!-- \#full-height-container -->
-</div><!-- \#page -->
-</body>
-</html>
+        </body>
+    </text>
+</TEI>

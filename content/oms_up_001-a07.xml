@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="oms_up.xsl"?>
 <TEI version="5.0" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -144,7 +145,7 @@
                     lecture to prove that we must resign the heroes of our own history for the idols
                     of Oxford Hellenism.</p>
                 <p><list type="footnotes">
-                        <item>* The attack is most peculiarly unfair, inasmuch as it represents the
+                        <item>The attack is most peculiarly unfair, inasmuch as it represents the
                             histories of <persName>Raleigh</persName> and
                                 <persName>Thucydides</persName> as works of like aim, and having
                             first assumed this, proceeds to ridicule the one for being unlike the
