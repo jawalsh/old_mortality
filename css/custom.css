@@ -1,1 +1,4 @@
 /* Place project-specific CSS here */
+
+epigraph > cit[rendition ~= '#block'] > quote::before {content:'' !important;}
+epigraph > cit[rendition ~= '#block'] > quote::after {content:'' !important;}
