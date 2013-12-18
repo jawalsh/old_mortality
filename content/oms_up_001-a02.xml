@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="oms_up.xsl"?>
+<TEI version="5.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Early English Dramatists</title>
+                <editor>John A. Walsh</editor>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name>Steven Heinen</name>
+                </respStmt>
+                <respStmt>
+                  <resp>Encoding checked and edited by</resp>
+                  <name>John A. Walsh</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Digital Culture Lab, Department of Information and Library Science, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date when="2013">2013</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Undergraduate Papers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title>The Early English Dramatists</title>
+                        <author>Christopher Marlowe &amp; John Webster</author>
+                    </analytic>
+                    <monogr>
+                        <title>Undergraduate Papers</title>
+                        <imprint>
+                            <pubPlace>Oxford, England, UK</pubPlace>
+                            <publisher>Old Mortality Society</publisher>
+                            <date when="1857-12">December 1857</date>
+                            <biblScope type="issue">001</biblScope>
+                            <biblScope type="pp">7-15</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+      <encodingDesc>
+        <tagsDecl>	
+          <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+          <rendition xml:id="b" n="tiebp:bold" scheme="css">
+            font-weight:bold;
+          </rendition> 
+          
+          <rendition xml:id="i" n="tiebp:italic" scheme="css">
+            font-style:italic;
+          </rendition> 
+          
+          <rendition xml:id="u" n="tiebp:underline" scheme="css">
+            text-decoration:underline;
+          </rendition> 
+          
+          <rendition xml:id="n" n="teibp:normal" scheme="css">
+            font-weight:normal;
+            text-decoration:none;
+            font-style:normal;
+          </rendition>
+          
+          <rendition xml:id="mono" n="teibp:mono" scheme="css">
+            font-family:Monaco,Courier,monospace;
+          </rendition>
+          
+          <rendition xml:id="super" n="tiebp:super" scheme="css">
+            vertical-align:super;
+            font-size:80%;
+          </rendition>
+          
+          <rendition xml:id="sub" n="tiebp:sub" scheme="css">
+            vertical-align:sub;
+            font-size:80%;
+          </rendition>
+          
+          <rendition xml:id="lowercase" n="tiebp:lowercase" scheme="css">
+            text-transform:lowercase;
+          </rendition>
+          
+          <rendition xml:id="uppercase" n="tiebp:uppercase" scheme="css">
+            text-transform:uppercase;
+          </rendition>
+          
+          <rendition xml:id="capitalize" n="tiebp:capitalize" scheme="css">
+            text-transform:capitalize;
+          </rendition>
+          
+          <rendition xml:id="small-caps" n="tiebp:small-caps" scheme="css">
+            font-variant:small-caps;
+          </rendition>
+          
+          <!-- Blocks. -->
+          <rendition xml:id="block" n="tiebp:block" scheme="css">
+            display:block;
+          </rendition> 
+          <rendition xml:id="block-margins" n="teibp:block-margins" scheme="css">
+            display:block;
+            margin-top:1em;
+            margin-bottom:1em;
+          </rendition>
+          <rendition xml:id="blockquote" n="tiebp:blockquote" scheme="css">
+            display:block;
+            font-size:90%;
+            margin-left:3em;
+            padding-left:1em;
+            border-left: 1px solid gray;
+            margin-top:.75em;
+            margin-bottom:.75em;
+            padding-top:.75em;
+            padding-bottom:.75em;
+          </rendition>
+          
+          <rendition corresp="#blockquote" n="tiebp:blockquote" scheme="css" scope="before">
+            <!-- This turns off the default generated quotes for block quotes. -->
+            content:"" !important;
+          </rendition>
+          
+          <rendition corresp="#blockquote" n="tiebp:blockquote" scheme="css" scope="after">
+            <!-- This turns off the default generated quotes for block quotes. -->
+            content:"" !important;
+          </rendition>
+          
+          <rendition xml:id="codeblock" n="teibp:codeblock" scheme="css">
+            display: block;
+            font-size: 80%;
+            margin-left: 1em;
+            padding-left: 1em;
+            border-left: 1px solid gray;
+            margin-top: .75em;
+            margin-bottom: .75em;
+            padding-top: .75em;
+            padding-bottom: .75em;
+            font-family:Monaco,Courier,monospace;
+            white-space:pre;
+          </rendition>
+          
+          <!-- Inline -->
+          
+          <rendition xml:id="inline" n="teibp:inline" scheme="css">
+            display:inline;
+          </rendition>
+          
+          <!-- Alignment. -->
+          <rendition xml:id="center" n="tiebp:center" scheme="css">
+            display:block;
+            text-align:center;
+            margin-left:auto;
+            margin-right:auto;
+          </rendition>
+          
+          <rendition xml:id="left" n="teibp:left" scheme="css">
+            text-align:left;
+          </rendition>
+          
+          <rendition xml:id="right" n="teibp:right" scheme="css">
+            text-align:right;
+          </rendition>
+          
+          <rendition xml:id="justify" n="teibp:justify" scheme="css">
+            text-align:justify;
+          </rendition>
+          
+          <rendition xml:id="center-block" n="tiebp:center-block" scheme="css">
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+          </rendition>
+          
+          <!-- Indentation -->
+          <rendition xml:id="hang" n="teibp:hang" scheme="css">
+            display:block;
+            padding-left:2.5em;
+            text-indent:-2.5em;
+          </rendition>
+          
+          <!-- Indentation for verse lines. Results in a “hanging” indent if
+					the line wraps. -->
+          <rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
+            display:block;
+            padding-left:4em;
+            text-indent:-2em;
+          </rendition>
+          
+          <rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
+            display:block;
+            padding-left:6em;
+            text-indent:-2em;
+          </rendition>
+          
+          <rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
+            display:block;
+            padding-left:8em;
+            text-indent:-2em;
+          </rendition>
+          
+          <rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
+            display:block;
+            padding-left:10em;
+            text-indent:-2em;
+          </rendition>
+          
+          <rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
+            display:block;
+            padding-left:12em;
+            text-indent:-2em;
+          </rendition>
+          
+          <rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
+            display:block;
+            padding-left:14em;
+            text-indent:-2em;
+          </rendition>
+          
+          <rendition xml:id="l-indent-07" n="tiebp:l-indent-07" scheme="css">
+            display:block;
+            padding-left:16em;
+            text-indent:-2em;
+          </rendition>
+          
+          <rendition xml:id="l-indent-08" n="tiebp:l-indent-08" scheme="css">
+            display:block;
+            padding-left:18em;
+            text-indent:-2em;
+          </rendition>
+          
+          <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+            /* text-indent:4em; */
+            /* The above method of describing an indentation for, say, a paragraph is preferred.
+            The method being used is in response to a bug in some browsers whereby a block
+            element, like a paragraph, is erroneously re-indented after interruption by another 
+            block element (like a list, which is valid inside a paragraph). */
+            content:"\A0\A0\A0\A0\A0\A0";
+          </rendition>
+          
+          <!-- font sizes -->
+          
+          <rendition xml:id="small" n="tiebp:small" scheme="css">
+            font-size:90%;
+          </rendition>
+          
+          <rendition xml:id="x-small" n="tiebp:x-small" scheme="css">
+            font-size:85%;
+          </rendition>
+          
+          <rendition xml:id="xx-small" n="tiebp:xx-small" scheme="css">
+            font-size:80%;
+          </rendition>
+          
+          <rendition xml:id="large" n="tiebp:large" scheme="css">
+            font-size:110%;
+          </rendition>
+          
+          <rendition xml:id="x-large" n="tiebp:x-large" scheme="css">
+            font-size:115%;
+          </rendition>
+          
+          <rendition xml:id="xxx-large" n="tiebp:xxx-large" scheme="css">
+            font-size:120%;
+          </rendition>
+          
+          <rendition xml:id="bracket" n="teibp:bracket" scheme="css"/>
+          
+          <rendition corresp="#bracket" n="tiebp:bracket" scheme="css" scope="before">
+            content:"&lt;";
+          </rendition>
+          
+          <rendition corresp="#bracket" n="tiebp:bracket" scheme="css" scope="after">
+            content:">";
+          </rendition>
+        </tagsDecl>
+      </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article">
+                <head>The Early English Dramatists</head>
+                <p>In the dramatists of the Elizabethan period and their immediate
+                    successors, there are certain salient points of resemblance which
+                    no imitation has been able to reproduce, except in a faint and
+                    faded mimicry. From the mighty line of <persName>Marlowe</persName> to the glitter
+                    and point of <persName>Shirley</persName>, a sort of unity may be discerned in all the
+                    productions of those old writers, among whom Shakespeare
+                    moved only as greatest of many great. Unity in variety; for
+                    there is no servile adherence to one standard, no blind
+                    conformity to one stock of rules. Still, all the plays of this era
+                    are coloured by the same influences, and modelled by the same
+                    tone of national thought and feeling. Till the siren-like music of
+                    <persName>Beaumont</persName> and <persName>Fletcher</persName>, 
+                    nothing of artificial sentiment or 
+                    frostwork ornament overlaid the power and purity which clothed in
+                    words the lofty actions and profound passions of their drama.
+                    The writers above-named, with all their varied and brilliant
+                    merit, were the first to mix with the very sources of poetry that
+                    faint, false sweetness which enervates the mind and cloys the taste
+                    of the reader. In this perhaps, as much as by their more
+                    glaring errors, the influence of their plays did much to weaken
+                    and lower the tone of the generation which followed and worshipped 
+                    them. It is with earlier poets, with minds more strong
+                    and fresh, from which the stamp of a stern and glorious age was
+                    not yet outworn, that we have now to do. I propose to-day to
+                    give as fair an account as will come within a range so limited, of
+                    two among these whom I consider wormiest of attention,
+                    <persName>Marlowe</persName> and <persName>Webster</persName>. The latter, indeed, in strict chronology,
+                    might perhaps be classed with writers of the second period ; his
+                    works are as certainly later in date than <persName>Marlowe</persName>'s, as prior to those
+                    of <persName>Beaumont</persName> and <persName>Fletcher</persName>: but the tone of his writings would
+                    be enough to rank him as a dramatist of the earlier class, if
+                    indeed a remarkable testimony of his preference for the school of
+                    Shakespeare did not remain under his own hand, in the preface to
+                    the first of his great tragedies. I shall, therefore, without
+                    scruple assign him a place among the poets of the first era, rather
+                    than with those of whom Beaumont and Fletcher were the chief
+                    leaders, and among whom we may class <persName>Shirley</persName>, <persName>Massinger</persName>, and
+                    their followers.
+                </p>
+                <p>Between the two great writers whom I have chosen for
+                    examination, there are many points of likeness and many of
+                    diversity. Both have a more subtle and profound power of
+                    analyzing the nature of man in its height and depth, in its strength
+                    and weakness, than (with one exception) was possessed by any of
+                    their contemporaries. Both have a fondness for gloom and
+                    shadow, which in less powerful minds would have sunk into a
+                    morbid lust of horror and pain. Their scenes, as it is, inflict no
+                    base emotion of shallow terror or mean suffering, such as weak
+                    writers who would fain be strong endeavour to excite, that so,
+                    while concealing their inherent weakness and want of faith in art
+                    they may at least harrow the nerves and crush the feelings of
+                    readers feeble as themselves.
+                </p>
+                <p>Both have a perfect and facile command of language; it
+                    obeys them as a willing slave; each thought is married to a fit
+                    expression. To each of these poets it is always an aim to strip
+                    naked every passion of all its form and circumstances and hold it
+                    up, bad or good, as it is in very truth. Neither has the slightest
+                    respect for anything like a sham, poetical or otherwise: another
+                    material difference between their writings and the elaborate
+                    luxuriance of the later school. Their style has the simple and
+                    noble outlines of the great early painters of Italy and Flanders:
+                    <persName>Fletcher</persName>’s is ornate and melodious, artificial in its very effusion,
+                    coloured and toned down in its very passion, with all the calculated
+                    effects and measured theatricalism of the eclectics.
+                </p>
+                <p><persName>Marlowe</persName> has more of pure unmingled poetry in his composition
+                    than <persName>Webster</persName>; he is glad of any chance that allows him to
+                    indulge in musical expression and a certain tender glory of
+                    description which makes every line a picture and a song in itself:
+                    in his fellow-dramatist, the poetry of expression only appears
+                    when forced forth by passion—never as an ornamental adjunct,
+                    always as a necessary part of the situation: a great and rare merit,
+                    which make it hopeless to give au idea of his power unless by
+                    excerpts of considerable length. Throughout <persName>Marlowe</persName>'s works
+                    there is a passionate love and worship of beauty, which in
+                    <persName>Webster</persName> gleams out by comparatively dim and scanty indications.
+                    Not indeed that the latter is deficient in the sense of enjoyment; he
+                    reposes now and then in sweet intervals as of music; and we meet
+                    with such harmonious touches of expression as in the following
+                    lines:—
+                </p>
+                <quote rendition="#blockquote">
+                    
+                    <lg>
+                        
+                        <l rendition="#l-indent-6">Untie your folded thoughts,</l>
+                        
+                        <l rendition="#l-indent-2">And let them dangle loose as a bride’s hair.</l>
+                    </lg>  
+                </quote>
+                <quote rendition="#blockquote">
+                    <l rendition="#l-indent-2">O, thou soft natural death, that art joint twin</l>
+                        
+                    <l rendition="#l-indent-2">To sweetest slumber! no rough bearded comet</l>
+                        
+                    <l rendition="#l-indent-2">Stares on’thy mild departure ; the dull owl</l>  
+                    
+                    <l rendition="#l-indent-2">Beats not against thy casement; the hoarse wolf</l> 
+                    
+                    <l rendition="#l-indent-2">Scents not thy carrion; pity winds thy corpse,</l> 
+                    
+                    <l rendition="#l-indent-2">Whilst horror waits on princes.</l> 
+                </quote>
+                
+                <quote rendition="#blockquote">
+                    
+                    <l rendition="#l-indent-8">One whose mind</l>
+                    <l rendition="#l-indent-2">Appears more like a ceremonious chapel,</l>
+                    <l rendition="#l-indent-2">Full of sweet music, than a thronging presence.</l>
+                
+                </quote>
+                
+                <p>Such passages might be easily multiplied, had I space for &amp;
+                complete analysis; but these may suffice to show the tender grace
+                and earnest harmony of style with which a poet of true dramatic
+                genius finds time to soften the tragedy cf any subject. He will
+                never urge terror beyond its due limits, or forget in the hurry and
+                passion of circumstance the beauty which should ever move as
+                naturally round his thoughts as its splendour round the motion of
+                a star.
+                </p>
+                <p>It remains to consider in what measure each of these writers
+                has fulfilled the main requisitions of the dramatic art And
+                here I must notice the chief defect of <persName>Marlowe</persName>. His dramas
+                usually lag in the action; sometimes the original interest is dropped
+                midway, and the artistic significance of the whole work destroyed.
+                Into no such error does <persName>Webster</persName> ever fall: but it is fair to
+                remember that he had lived to study the most perfect models
+                of the dramatic art. The latter's pathos is, in my opinion, more
+                subtle and intense than has been attained by any other of our dramatists
+                but <persName>Shakespeare</persName> and <persName>Shelley</persName> : a quality in which I cannot but
+                    think <persName>Marlowe</persName> comparatively deficient. None ever went beyond
+                him in power and beauty of words; no one could have drawn in
+                firmer outline the scenes of suffering which he loved to lay bare
+                before his readers: but any one of the three dramatists I have
+                mentioned would have steeped them in a deeper pathos and
+                glorified them with a purer compassion. There is a divine pity
+                and love in some great poets which crowns their completed art as
+                with a halo of sacred sorrow. This is not in <persName>Marlowe</persName>; scorn,
+                and a fierce delight in his own power and skill, have driven
+                out all mercy; others may pity the agony he exhibits, but in him
+                is no compassion. His is the strength that cannot pardon
+                weakness; the realism that will veil nothing, explain nothing
+                away. There is something terrible in his quiet, pitiless dissection
+                of character, his silent scrutiny into all dark and dubious points
+                of circumstance, his steady self-confidence in handling the
+                forbidden and the fearful; his foot slips not, his eye falters not,
+                on the narrow verge of life; where all darkest questions meet and
+                mingle, in religious and ethical speculation, in moral and spiritual
+                doubts, there has he been, a cold and keen enquirer; the
+                sensuous passion of his temperament subdued and subservient to
+                the judicial will.	All these questions has he	faced without
+                wavering: no influence has bowed him this way or that; and he
+                returns unable, perhaps undesirous, to settle the perplexities of
+                faith and conduct. Such at least seems to me the moral underlying
+                his life and works.
+                </p>
+                <p>And	yet, with	all	his faults of speculation and action—
+                for this confusion	of	moral boundaries and hard contempt of
+                human	wants is	a	grave error enough—how	did he keep
+                unaltered and unsoiled his name and rank as a poet! In his
+                tragedies, as before stated, we find no less of that* sensuous and
+                passionate’ beauty which lies at the very inmost core of his power,
+                than in the rapid rhythms and gorgeous luxuries of his Hero and
+                Leander. In that poem, indeed, he seems to have put off all
+                other claims to praise, only to abandon himself in utter freedom to
+                the enjoyments of music and colour. The passion of the lovers
+                is a thin veil for that of the poet; it goes no deeper than external
+                delight; but by a beautiful use of his realizing and analytic style
+                he has done justice once for all to that much misused and belied
+                thing, the purely sensuous and outward side of love. And from
+                the very excess of pleasureable emotion, which burns and
+                trembles thro’ the verse as a flower trembles open to the
+                air, the whole poem is thrown back into some remote
+                visionary land, which cannot affect or alter any human relation.
+                It is not the love that we are conscious of, but the enjoyment only.
+                The same, in a modified degree, may be said of Shakespeare's
+                Venus and Adonis,—a poem of the same character as the present,
+                but so tempered by the peculiar properties of its author as to rank
+                far above all others of the same school.
+                </p>
+                <p>Another point of contrast requires notice:	the terrors of
+                    <persName>Webster</persName>'s drama are, for the most part, purely spiritual; those of
+                    <persName>Marlowe</persName>'s, often tainted by the intrusion of mere physical
+                endurance: which latter, when lifted by no sentiment beyond its
+                own relations, it is of itself unfit for dramatic treatment. There is a
+                truth in the old Greek theories which bade poets avoid all horrible
+                exposure in their writings, and be careful of turning the exceptional
+                into the repulsive. This dogma, pushed to the extreme, leaves us
+                a tragedy bound in grave-clothe, with a nerveless whine for voice
+                and a draped lay-figure for study ; the clear eyes blinded with a
+                fool’s bandage, the mighty music and measured thunder as of the
+                choral heavens, changed for an emasculated and sickly drawl.
+                But poets far above the so-called 1 classic school, have erred as
+                gravely on the other hand. Art is not dissection: nothing is
+                more offensive than bare and sensuous horror. Spiritual suffering
+                in every detail and symptom belongs to the, large dowry, of art;
+                but not the details of the slaughter-house. The noble censure
+                passed by Mr. Ruskin, on the painters of foul and bloody scenes,
+                the art whose place is in the kennel or the shambles, applies
+                equally to the poet who defiles his pow£r in the same way. I do
+                not accuse either <persName>Marlowe</persName> or <persName>Webster</persName> of this hideous lust of
+                pain; I have already expressed my belief in their healthy and
+                vigorous purity of purpose, and I desire here to assert it again.
+                Nevertheless, there" is in <persName>Marlowe</persName> a suspicion of this fatal
+                tendency; had he been a weaker man, it might have widened into
+                a serious defect. Compare, for specimens of different treatment,
+                the death-scene of <persName>Marlowe</persName>'s Edward II. with that of <persName>Webster</persName>'s
+                Duchess of Malfi.
+                </p>
+                <p>To atone for all this inadequate praise and presumptous censure
+                    take two specimens’ of <persName>Marlowe</persName>'s power of subtle thought and
+                    delicate expression; the first pure speculation, as the second is
+                    pure description:—</p>
+                </div>
+                <div type="poem">
+                <head>Theory of Beauty.</head>
+                
+                <quote type="blockquote"> 
+                    <l rendition="#l-indent-2">If all the pens that ever poets held</l>
+                    <l rendition="#l-indent-2">Had fed the feeling of their masters* thoughts,</l>
+                    <l rendition="#l-indent-2">And every sweetness that inspired their hearts,</l>
+                    <l rendition="#l-indent-2">Their win Is, and muses on admired themes;</l>
+                    <l rendition="#l-indent-2">If all the heavenly quintessence they still</l>
+                    <l rendition="#l-indent-2">From their immortal flowers of poesy,</l>
+                    <l rendition="#l-indent-2">Wherein as in a mirror we perceive</l>
+                    <l rendition="#l-indent-2">The highest reaches of a human wit;</l>
+                    <l rendition="#l-indent-2">If these had made one poem’s period,</l>
+                    <l rendition="#l-indent-2">And all combined iu beanty’s worthiness,</l>
+                    <l rendition="#l-indent-2">Yet should there hover in their restless heads</l>
+                    <l rendition="#l-indent-2">One thought, one grace, one wonder, at the least,</l>
+                    <l rendition="#l-indent-2">Which into words no virtue can digest”</l>
+                </quote>
+                </div>
+            <div type="poem">
+                <head><persName>Faust</persName> evokes the shape of <persName>Helen</persName>.</head>
+                
+                    <l rendition="#l-indent-2">Was this the face that launched a thousand ships</l>
+                    <l rendition="#l-indent-2">And burnt the topless towers of lliam?</l>
+                <l rendition="#l-indent-2">Sweet <persName>Helen</persName>, make me immortal with a kiss.</l>
+                    <l rendition="#l-indent-2">Her lips suck forth my soul, see where it flies!</l>
+                <l rendition="#l-indent-2">Come, <persName>Helen</persName>, come, give me my soul again.</l>
+                    <l rendition="#l-indent-2">Here will 1 dwell, for Heaven is in these lips,</l>
+                <l rendition="#l-indent-2">And all is dross that is not <persName>Helena</persName>,</l>
+                    <l rendition="#l-indent-2">I will be Paris, and for love of thee</l>
+                    <l rendition="#l-indent-2">Instead of Troy shall Wurtemberg be sacked</l>
+                    <l rendition="#l-indent-2">And I will combat with weak Menelaus,</l>
+                    <l rendition="#l-indent-2">And wear thy colours on my plumed crest:</l>
+                <l rendition="#l-indent-2">Yea, I will wound <persName>Achilles</persName> in -the heel,</l>
+                    <l rendition="#l-indent-2">And then return to Helen for a kiss.</l>
+                    <l rendition="#l-indent-2">O, thou art fairer than the evening air,</l>
+                    <l rendition="#l-indent-2">Clad in the beauty of a thousand stars:</l>
+                    <l rendition="#l-indent-2">Brighter art thou than flaming Jupiter</l>
+                    <l rendition="#l-indent-2">When he appeared to hapless Semele;</l>
+                    <l rendition="#l-indent-2">More lovely than the monarch of the sky</l>
+                    <l rendition="#l-indent-2">In wanton Arethusa's azured arms;</l>
+                    <l rendition="#l-indent-2">And none but thou shalt be my paramour!”</l>
+            </div>
+            <div type="article">
+                <p>Observe especially, besides the sensuous perfection of language,
+                    the passionate will expressed in this passage by the earnest
+                    repetition of the mere words ‘I' and 'thou': as if the sorcerer
+                    feared that at the least relaxation of his wilful and potent desire, his</p>
+            </div>
+                <div type="poem">
+                    <l rendition="#l-indent-2">Compare an earlier passage in the same tragedy:</l>
+                    <l rendition="#l-indent-4">Spirits—like women or unwedded maids,</l>
+                    <l rendition="#l-indent-4">Shadowing more beauty in their airy brows</l>
+                    <l rendition="#l-indent-4">Than have the white breasts of the Queen of love.</l>
+                    
+                    <l rendition="#l-indent-2">Compare <persName>Shakespeare</persName>'s,</l>
+                    <quote rendition="#blockquote">
+                        <l rendition="#l-indent-6">White and azure, laced</l>
+                        <l rendition="#l-indent-4">With blue of heaven's own tint,</l>
+                    </quote>
+                    <l rendition="#l-indent-2">(Where see <persName>Mr. Knight</persName>’s excellent note,) and</l>
+                    <quote rendition="#blockquote">
+                        <l rendition="#l-indent-4">Her two blue windows faintly she upheaveth.</l>
+                    </quote>
+                    <p><persName>Venus</persName>and<persName>Adonis</persName></p>
+                 
+                </div>
+                <div type="article">
+                <p>influence might cease and the vision foil him after all. He is afraid
+                    to believe her a mere creature of his will, and half dreams that the
+                    spells which evoked may retain her for ever as a real and breathing
+                    woman at his side.</p>
+            </div>
+            <div type="article">
+                <p>influence might cease and the vision foil him after all. He is afraid
+                    to believe her a mere creature of his will, and half dreams that the
+                    spells which evoked may retain her for ever as a real and breathing
+                    woman at his side.</p>
+                <p>A few words more of <persName>Webster</persName>, to whom alone far more
+                    than all my space should be given to do justice; what remains,
+                    must be comprised in a few brief remarks. His two great
+                    works, <persName>Vittoria Corombona</persName> and the <persName>Duchess of Malfi</persName>, are
+                    unlike any other plays in composition and in style. There is
+                    perhaps more art in the character of <persName>Vittoria</persName> than we elsewhere
+                    find in <persName>Webster</persName>; the often quoted scene of her trial is the 'finest
+                    instance but one of the author's dramatic power. The guilty
+                    woman wears her sin so lightly that it grows an ornament; there
+                    is a triumph as of innocence in her fearless bearing, her varied
+                    and ready, eloquence, her facile turns of phrase, her scornful
+                    argument and passionate rhetoric. It is not like innocence, but it
+                    supplies the place of conviction with admiration; if we do not
+                    forget her guilt, we care for it no more than she does, when her
+                    calm and final words ring in our ears, making a glory out of her
+                    shame, turning her condemnation to a triumph, and her judge
+                    into the criminal. <persName>Brachiano</persName>, tho’ inferior to the heroine, is a
+                    vigorous and careful sketch; Flamineo's colder temperament well
+                    sets out the impulsive emotion of his sister’s; and in reading the last
+                    scenes, we hesitate whether to award most praise to the earnest
+                    eloquence of the verse or to the subtle touches of character and
+                    dramatic passion.
+                </p>
+                <p>The <persName>Duchess of Malfi</persName>, on the whole, is the noblest specimen of
+                    <persName>Webster</persName>; it is more complete and definite as a work of art, than
+                    <persName>Vittoria Corombona</persName>; and its pathos is wider and "deeper. The
+                    scenes before and after the murder of the Duchess are the most
+                    perfect instances I know of imaginative realism. <persName>Webster</persName>would
+                    have been a great poet had he never written anything but that
+                    ghastly dirge, where the murderer bids a living woman perform for
+                    herself the offices done for the newly dead; the sweet and holy</p>
+            </div>
+            <div type="poem">
+                <l rendition="#l-indent-4">It stall not be a house of convertites;</l>
+                <l rendition="#l-indent-4">My mind shall make it honester to me</l>
+                <l rendition="#l-indent-4">Than the Pope’s palace, and more peaceable</l>
+                <l rendition="#l-indent-4">Than thy soul, though thou art a Cardinal.</l>
+                <l rendition="#l-indent-8"><persName>Vittoria Corombona</persName></l>
+            </div> 
+            <div type="article">
+                <p>words that close as with music the dark scene of pain and evil;
+                    or that dialogue between the <persName>Duke Ferdinand</persName> and his sullen, subtle
+                    follower, slow to repent as to sin :—</p>
+                <quote rendition="#blockquote">
+                    <l rendition="#l-indent-2"><persName>Ferd</persName>. Cover her face: mine eyes dazzle. She died young.</l>
+                    <l rendition="#l-indent-2"><persName>Bos</persName>. I think not so: her infelicity</l>
+                    <l rendition="#l-indent-3">Seemed to have years too many.</l>
+                    <l rendition="#l-indent-2"><persName>Ferd</persName>. She and I were twins;</l>
+                    <l rendition="#l-indent-3">And should I die this instant, I had lived</l>
+                    <l rendition="#l-indent-3">Her time to a minute.</l>
+                    <l rendition="#l-indent-2"><persName>Bos</persName>. It seems she was born first.</l>
+                </quote>
+                <p>There is somewhat in the man's clear, sad insight into sorrow and
+                    sin, which makes one shrink. The eyes that had seen this, how did
+                    they look on the common day? the ears that had taken those quiet,
+                    brief words, how did they listen to the usual converse of men ?
+                    One thinks of what he knew and of what he has told us, till it
+                    seems as tho’ one might almost say, what had this man done, that
+                    he should see such things? The prophet who beheld Pallas
+                    unveiled, went away blind for ever. Is there no retribution for the
+                    poet who has gone so deep into the dark places, where the sun
+                    is silent.</p>
+                <p>As this imperfect analysis draws to a close, its writer sees how
+                    m«ch has been left unsaid—how much tacit injustice done to the
+                    subject. Much more might worthily be said of either poet: and
+                    will be, when the study of our noble literature is fully re-opened to
+                    all. There has been enough of neglect and ignorance; it is time we
+                    should know our own wealth. The earnest reverence and affectionate
+                    study of a few should not be all that we can spare the mighty dead.
+                    More than this must be given ; and it will be. Wise enjoyment, noble
+                    and healthy teaching, lies for all in the forgotten writings of our
+                    early masters. It w’as not in vain that such men thought and
+                    toiled in the times we affect to praise. Too much honour cannot
+                    be given to the brave clear intellect, the earnest and fearless heart
+                    of such writers as these. Let us be just at length, and begin to
+                    measure reputation simply by merit We who profess to love the</p>
+                <list type="footnote"><item>See for a comment on this, t'he insolent and silly ‘notices* of these poets in
+                    <persName>Lardner</persName>'s Eyclopaedia. The minor dramatists may take comfort, seeing that the
+                    same gentleman who crushes them with judicial scorn appears, like the youthful critic
+                    of <persName>Leech</persName>, to ‘ consider <persName>Shakespeare</persName> a much overrated man.</item></list>
+                <p>past, and to rate it according to its desert, let us find out what it
+                    was and what it has left us Because justice has not yet been done,
+                    shall we perpetuate injustice ? Let us remember sometimes that we
+                    have heard of</p>
+                <l rendition="#l-indent-4">A lion that dies of an ass’s kick,</l>
+                <l rendition="#l-indent-4">The wronged great soul of an ancient Master.</l>
+                <p>The appeal so well and wisely made in behalf of early art,
+                    I would make for our early national poets, and for no dissimilar
+                    reasons, Hitherto we have merited the taunt—</p>
+                <l rendition="#l-indent-4">Here, where your praise would yield returns</l>
+                <l rendition="#l-indent-5">And a handsome word or two give help,</l>
+                <l rendition="#l-indent-4">Here, after your kind, the mastiff grins,</l>
+                <l rendition="#l-indent-5">And the puppy pack of poodles yelp.</l>
+                <p>Let us hope that, considering the literary work these men did,
+                    all wise students of poetry will come to heed the advice of a
+                    later stanza:</p>
+                <l rendition="#l-indent-4">Give these, 1 say, full honour and glory</l>
+                <l rendition="#l-indent-5">For daring so much, before they well did it.</l>
+                <l rendition="#l-indent-4">The first of the new, in our race’s story,</l>
+                <l rendition="#l-indent-5">Beats the last of the old, ’tis no idle quiddit.</l>
+                <l rendition="#l-indent-4">The worthies began a revolution</l>
+                <l rendition="#l-indent-5">Which if on earth we intend to acknowledge,</l>
+                <l rendition="#l-indent-4">Honour them now (ends my allocution)</l>
+                <l rendition="#l-indent-5">Nor confer our degree when the folks leave college.</l>
+                <p>In this hope I close the present essay; to be followed as <choice><orig>circum-stance</orig><reg>circumstance</reg></choice> permits by others, in which the subject of our early drama
+                    may be more fully treated.</p>
+            </div>
+            
+        </body>
+    </text>
+</TEI>
